@@ -22,13 +22,13 @@ This project is a visual representation of my **daily discipline** and commitmen
 To prove my discipline, here are my official Duolingo stats:
 
 <p align="center">
-  <img src="photo_2026-01-17_01-50-22" width="45%" />
-  <img src="photo_2026-01-17_01-51-50" width="45%" />
+  <img src="https://github.com/armanrisbekov/Duolingo-English-Project/blob/main/photo_2026-01-17_01-50-22.jpg" width="45%" />
+  <img src="https://github.com/armanrisbekov/Duolingo-English-Project/blob/main/photo_2026-01-17_01-51-50.jpg" width="45%" />
 </p>
 
 <p align="center">
-  <img src="photo_2026-01-17_01-52-44" width="45%" />
-  <img src="photo_2026-01-17_01-53-03" width="45%" />
+  <img src="https://github.com/armanrisbekov/Duolingo-English-Project/blob/main/photo_2026-01-17_01-52-44.jpg" width="45%" />
+  <img src="https://github.com/armanrisbekov/Duolingo-English-Project/blob/main/photo_2026-01-17_01-53-03.jpg" width="45%" />
 </p>
 
 > "Learning is not just about talent; it's about showing up every single day for 500 days." 
