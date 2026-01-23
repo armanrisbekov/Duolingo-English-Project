@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #0d1117, #161b22, #0a0a0a);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    width: 90%;
+    max-width: 480px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    position: relative;
+    text-align: center;
+}
+
+.robot-selection {
+    margin: 20px 0;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot {
+    font-size: 80px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.4s;
+    margin: 0 15px;
+}
+
+.robot:hover {
+    transform: scale(1.1);
+}
+
+.speech {
+    font-size: 19px;
+    margin: 20px 0;
+    min-height: 100px;
+    color: #00ffff;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    text-align: left;
+    line-height: 1.6;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.controls button {
+    background: linear-gradient(45deg, #ff9800, #f57c00);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+#languageSelector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #1c2128;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
