@@ -3,34 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream AI Robot | Arman Risbekov</title>
+    <title>Arman's Duo Empire</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css"> </head>
 <body>
 
-    <div class="container">
-        <select id="languageSelector">
-            <option value="kz">Қазақша</option>
-            <option value="tr">Türkçe</option>
-            <option value="en">English</option>
-            <option value="ru">Русский</option>
-        </select>
-
-        <h2>Dream AI Robot</h2>
-        
-        <div class="robot-selection" id="robotBox">
-            <span class="robot" id="maleBtn" onclick="selectRobot('male')">👳🏼</span>
-            <span class="robot" id="femaleBtn" onclick="selectRobot('female')">🧕🏼</span>
-        </div>
-
-        <div id="speech-bubble" class="speech">Роботты таңдаңыз / Robot seçin</div>
-
-        <div class="controls">
-            <button id="actionBtn" style="display: none;" onclick="revealCreator()"></button>
-            <button id="abilitiesBtn" style="display: none;" onclick="revealAbilities()"></button>
-            <button id="fairyTaleBtn" style="display: none;" onclick="tellFairyTale()"></button>
-            <button id="restartBtn" style="display: none;" onclick="restart()"></button>
+    <div id="duoNotif" class="notification">
+        <div class="notif-brand">Duolingo</div>
+        <div class="notif-icon-box">📚</div>
+        <div class="notif-content">
+            <b>Streak Update!</b>
+            <span>You reached 505 days! Keep it up!</span>
         </div>
     </div>
 
+    <div class="card">
+        <div class="profile-header">
+            <div class="main-avatar">🧒🏻</div>
+            <div style="text-align: left;">
+                <h2>Arman Risbekov G</h2>
+                <div class="flags-box">
+                    <img src="https://flagcdn.com/w40/tr.png" class="flag-icon" alt="Turkey">
+                    <img src="https://flagcdn.com/w40/us.png" class="flag-icon" alt="USA">
+                </div>
+            </div>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <i class="fas fa-fire" style="color: var(--duo-orange); font-size: 24px;"></i>
+                <div>
+                    <span class="stat-val">505</span>
+                    <span class="stat-label">Day Streak</span>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-bolt" style="color: var(--duo-blue); font-size: 24px;"></i>
+                <div>
+                    <span class="stat-val">122,879</span>
+                    <span class="stat-label">Total XP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn-celebrate" onclick="celebrate()">Celebrate Streak! 🎉</button>
+
+    <div class="section-title">FRIENDS STREAK</div>
+    <div class="friends-list">
+        <div class="friend-row">
+            <span class="friend-avatar">🧕🏻</span>
+            <span>Aydana Mukhitdin</span>
+            <div style="margin-left: auto; color: var(--duo-orange); font-weight: 900;">
+                <i class="fas fa-fire"></i> 310
+            </div>
+        </div>
+        <div class="friend-row">
+            <span class="friend-avatar">👩🏻</span>
+            <span>Ayaulym Aimak</span>
+            <div style="margin-left: auto; color: var(--duo-orange); font-weight: 900;">
+                <i class="fas fa-fire"></i> 115
+            </div>
+        </div>
+    </div>
+
+    <div class="section-title">2025 CHALLENGES</div>
+    <div class="awards-grid">
+        <div class="award-item"><span class="award-icon">🏆</span><span class="month-name">Jan</span></div>
+        <div class="award-item"><span class="award-icon">🥇</span><span class="month-name">Feb</span></div>
+        <div class="award-item"><span class="award-icon">💎</span><span class="month-name">Mar</span></div>
+        <div class="award-item"><span class="award-icon">🛡️</span><span class="month-name">Apr</span></div>
+        <div class="award-item"><span class="award-icon">👑</span><span class="month-name">May</span></div>
+        <div class="award-item"><span class="award-icon">🌟</span><span class="month-name">Jun</span></div>
+        <div class="award-item"><span class="award-icon">🔥</span><span class="month-name">Jul</span></div>
+        <div class="award-item"><span class="award-icon">🎯</span><span class="month-name">Aug</span></div>
+        <div class="award-item"><span class="award-icon">🚀</span><span class="month-name">Sep</span></div>
+        <div class="award-item"><span class="award-icon">🔮</span><span class="month-name">Oct</span></div>
+        <div class="award-item"><span class="award-icon">🎁</span><span class="month-name">Nov</span></div>
+        <div class="award-item"><span class="award-icon">🎄</span><span class="month-name">Dec</span></div>
+    </div>
+
+    <div class="footer-text">KEEP LEARNING!</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script> </body>
 </html>
